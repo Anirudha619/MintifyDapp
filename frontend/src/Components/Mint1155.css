@@ -1,0 +1,58 @@
+
+.dapp-header1155 {
+    background-color: #0D0B0C;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+.Container1155  {
+    background-image: url("../images/container.png");
+    min-width: 1241px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+
+.single_1155{
+    text-align: left;
+    color: white;
+    font-family: "Exo";
+    border: 3px solid white;
+    background-image: url("../images/container.png");
+    width: 800px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+.single_1155:hover{
+    text-align: left;
+    color: white;
+    font-family: "Exo";
+    background-image: linear-gradient(90deg, #E425E1, #5F19F2);
+    cursor: pointer;
+}
+
+.batch_1155{
+    text-align: left;
+    color: white;
+    font-family: "Exo";
+    border: 3px solid white;
+    background-image: url("../images/container.png");
+    width: 800px;
+    height: 110px;
+}
+
+.batch_1155:hover{
+    text-align: left;
+    color: white;
+    font-family: "Exo";
+    background-image: linear-gradient(90deg, #E425E1, #5F19F2);
+    cursor: pointer;
+}

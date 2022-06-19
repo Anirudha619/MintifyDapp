@@ -1,0 +1,40 @@
+
+.App-header {
+  background-color: #0D0B0C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("./images/blur.png");
+  background-repeat: no-repeat;
+}
+
+.grid-land{
+  display: grid;
+  grid-template-columns: auto auto; 
+  gap: 140px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.loadbtn{
+  color: white;
+  font-family: "Exo";
+  background-image: linear-gradient(90deg, #E425E1, #5F19F2);
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.loadbtn:hover{
+  cursor: pointer;
+}
